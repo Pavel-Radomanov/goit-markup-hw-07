@@ -3,7 +3,7 @@
     padding-left: 0;
     padding-right: 0;
     justify-content:space-between;
-    }
+}
 
 .benefits__header {
     margin-bottom: 10px;
@@ -39,8 +39,12 @@
     margin-bottom: 30px;
     border-radius: 4px;
     object-fit: cover;
+
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
-.benefits__icon:last-child {
+/*.benefits__icon:last-child {
     margin-right: 0;
-}
+}*/
